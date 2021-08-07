@@ -6,3 +6,5 @@ FAANG - Facebook, Amazon, Apple, NetFlix, Goolge
 Solving FAANG DS & Algo Questions
 
 Using Java, Java 8 with proper test cases
+
+This repo is open to share your thoughts on the algos added here. Please do share suggestions to improve the code.
