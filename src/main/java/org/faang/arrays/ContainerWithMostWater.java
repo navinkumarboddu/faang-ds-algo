@@ -21,7 +21,7 @@ public class ContainerWithMostWater {
         CommonUtil.startTimer();
         int maxArea = optimalGetMaxArea.apply(a);
         CommonUtil.timeTaken();
-        System.out.println(maxArea);
+        System.out.println(maxArea);   
     }
 
     public static Function<int[], Integer> optimalGetMaxArea = (a) -> {
