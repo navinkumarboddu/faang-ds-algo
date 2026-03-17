@@ -34,16 +34,26 @@ package org.faang.arrays;
 public class FindEvenNumberDigitsInArray {
 
     public static void main(String[] args) {
-       int[] nums = {12,345,2,6,7896};
+        int[] nums = {12,345,2,6,7896};
+        int count = 0;
 
         for (int index = 0; index < nums.length; index++) {
             if(checkEven(nums[index])){
-                System.out.println(nums[index] + ", ");
+                count++;
             }
         }
+        System.out.println(count);
     }
 
     private static boolean checkEven(int number) {
+        int no_digits = (int) (Math.log10(number) + 1);
+        if(no_digits%2 == 0){
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean checkEven1(int number) {
             int no_digits = 0;
             while(number > 0){
                 no_digits++;

@@ -78,7 +78,7 @@ public class RichestCustomerWealth {
         return pairIndex;
     }
 
-    public int maximumWealth(int[][] accounts) {
+    public static int maximumWealth(int[][] accounts) {
         int array_size = accounts.length;
         int[] wealths = new int[array_size];
         int maxWealth = 0;
