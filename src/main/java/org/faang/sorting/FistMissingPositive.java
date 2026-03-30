@@ -1,6 +1,8 @@
 package org.faang.sorting;
 
 
+import java.util.Arrays;
+
 /**
  * 41. First Missing Positive
  * Given an unsorted integer array nums. Return the smallest positive integer that is not present in nums.
@@ -27,8 +29,10 @@ package org.faang.sorting;
  */
 public class FistMissingPositive {
     public static void main(String[] args) {
-        int[] nums = {1};
+        int[] nums = {7,8,9,11,12};
         System.out.println(firstMissingPositive(nums));
+        System.out.println("____");
+        Arrays.stream(nums).forEach(System.out::println);
     }
 
     public static int firstMissingPositive(int[] nums) {
