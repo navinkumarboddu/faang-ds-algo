@@ -14,3 +14,10 @@ This repo is open to share your thoughts on the algos added here. Please do shar
 | :---         |  ---: |
 | org.faang.udemy.bootcamp   | Udemy - https://persistent.udemy.com/course/data-structures-and-algorithms-bootcamp  |
 
+### LEETCODE
+
+#### Easy
+
+| Number | Link | Code Link |
+|---|---|---|
+| 832 | https://leetcode.com/problems/flipping-an-image/description/ | [Flipping An Image](src/main/java/org/faang/bitwise/FlipImage.java) |
