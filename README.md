@@ -18,6 +18,7 @@ This repo is open to share your thoughts on the algos added here. Please do shar
 
 #### Easy
 
-| Number | Link | Code Link |
-|---|---|---|
-| 832 | https://leetcode.com/problems/flipping-an-image/description/ | [Flipping An Image](src/main/java/org/faang/bitwise/FlipImage.java) |
+| Number | Link | Code Link                                                               |
+|---|---|-------------------------------------------------------------------------|
+| 832 | https://leetcode.com/problems/flipping-an-image/description/ | [Flipping An Image](src/main/java/org/faang/bitwise/FlipImage.java)     |
+| 2164 | https://leetcode.com/problems/sort-even-and-odd-indices-independently/description/ | [Sort Even Odd](src/main/java/org/faang/arrays/SortEvenOddIndices.java) |
