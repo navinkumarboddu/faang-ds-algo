@@ -23,3 +23,4 @@ This repo is open to share your thoughts on the algos added here. Please do shar
 | 832 | https://leetcode.com/problems/flipping-an-image/description/ | [Flipping An Image](src/main/java/org/faang/bitwise/FlipImage.java)                           |
 | 1342 | https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/ | [Steps to Reduce number to zero](src/main/java/org/faang/recursion/StepsToReduceNo2Zero.java) |
 | 2164 | https://leetcode.com/problems/sort-even-and-odd-indices-independently/description/ | [Sort Even Odd](src/main/java/org/faang/arrays/SortEvenOddIndices.java)                       |
+|2169   | https://leetcode.com/problems/count-operations-to-obtain-zero/description/ | [Count Operations to Zero](src/main/java/org/faang/recursion/CountOperationsToZero.java)      |
